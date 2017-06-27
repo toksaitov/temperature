@@ -1,0 +1,35 @@
+{
+  "name": "temperature-back",
+  "version": "1.0.0",
+  "description": "temperature-back is a simple temperature tracking server.",
+  "main": "temperature-back.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node temperature-back.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toksaitov/temperature.git"
+  },
+  "keywords": [
+    "temperature",
+    "measurements",
+    "IoT",
+    "Arduino",
+    "ESP8266",
+    "ESP-12"
+  ],
+  "author": "Dmitrii Toksaitov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toksaitov/temperature/issues"
+  },
+  "homepage": "https://github.com/toksaitov/temperature#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mysql2": "^1.3.5",
+    "sequelize": "^4.2.0"
+  }
+}
